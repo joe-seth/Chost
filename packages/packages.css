@@ -1,0 +1,60 @@
+.div{
+    background-color: rgb(150, 236, 187);
+    margin: 10px 0;;
+    padding: 20px 0 20px 20px;
+    border: 5px solid grey;
+    width: 90%;
+    border-left: none;
+}
+
+.div__right{
+    float:right;
+    border-left: 5px solid gray;
+    border-right: none;
+    
+}
+
+.div:hover,
+.div:active{
+    border-color: red;
+}
+
+.clearfix{
+    clear: both;
+}
+span{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a-title{
+    color: black;
+    margin: 20px;
+}
+
+.a-subtitle{
+    color: gray;
+    margin: 20px;
+}
+
+.a-info{
+    border: 2px solid black;
+    background: rgb(248, 230, 230);
+    margin: 20px;
+    width: 90%;
+    color: rgb(29, 27, 27);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.div__special{
+    background: rgb(3, 42, 3)
+    
+}
+
+.div__special .a-title{
+    color: white
+}
