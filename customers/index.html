@@ -11,8 +11,15 @@
     <link rel="stylesheet" href="customer.css">
 </head>
 <body>
+    <div class="backdrop"></div>
+
     <header class="main-header">
         <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
             <a href="../index.html" class="main-header__brand"> <img src="../images/chost.png" alt="Jhost"></a>
             
         </div>
@@ -24,6 +31,13 @@
             </ul>
         </nav>
     </header>
+    <nav class="main-nav">
+        <ul class="main-nav__items">
+            <li class="main-nav__item"><a href="packages/index.html">Packages</a></li>
+            <li class="main-nav__item"><a href="customers/index.html">Customers</a></li>
+            <li class="main-nav__item main-nav__item--cta"><a href="start-hosting/index.html">Start Hosting</a></li>
+        </ul>
+    </nav>
     <main>
         <div>
             <div class="testimonial" id="customer-1">
@@ -58,5 +72,6 @@
             </ul>
         </nav>
     </div>
+    <script src="shared.js"></script>
 </body>
 </html>
